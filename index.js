@@ -37,11 +37,7 @@ window.onscroll=function(){
 bar.onclick=function(){
     if(items.style.display === 'flex'){
         items.style.display='none'
-        // items.classList.toggle('hide')
-        console.log("ffff")
     }else{
         items.style.display="flex"
-        // items.classList.toggle('hide')
-        console.log("ggg")
     }
 }
